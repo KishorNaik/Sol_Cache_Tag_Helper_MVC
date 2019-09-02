@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<cache enabled="true" expires-sliding="@TimeSpan.FromSeconds(5)">
+    Time : @DateTime.Now
+</cache>
+
+@{ 
+
+    int id = 10;
+
+}
+
+@*Var by Query Demo*@
+
+<a class="btn btn-danger" asp-controller="CacheDemo" asp-action="VarByRouteDemo" asp-route-id="@id">Var By Query</a>
+
+<form asp-controller="CacheDemo" asp-action="VarByDemo" asp-route-id="@id">
+    <input id="btnSubmit" type="submit" class="btn btn-primary" value="Submit" />
+</form>

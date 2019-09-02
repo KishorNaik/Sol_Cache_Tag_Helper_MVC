@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sol_Cache_Tag_Helper", "Sol_Cache_Tag_Helper\Sol_Cache_Tag_Helper.csproj", "{9732B504-0F33-45B8-B4AE-9B907DEA4A92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9732B504-0F33-45B8-B4AE-9B907DEA4A92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9732B504-0F33-45B8-B4AE-9B907DEA4A92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9732B504-0F33-45B8-B4AE-9B907DEA4A92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9732B504-0F33-45B8-B4AE-9B907DEA4A92}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {541B5B8A-DA9A-4264-A050-C835BDB1E1C8}
+	EndGlobalSection
+EndGlobal

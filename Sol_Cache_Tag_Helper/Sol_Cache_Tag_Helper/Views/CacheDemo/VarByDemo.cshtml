@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewData["Title"] = "VarByDemo";
+}
+
+<h1>VarByDemo</h1>
+
+<cache enabled="true" vary-by="@ViewBag.Id">
+
+    <h3>@ViewBag.Id</h3> 
+
+    Date & Time : @DateTime.Now
+</cache>
